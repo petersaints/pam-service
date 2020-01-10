@@ -1,5 +1,7 @@
-const data = require('./data/data.service.js');
+const users = require('./users/users.service.js');
+const entities = require('./entities/entities.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function (app) {
-  app.configure(data);
+  app.configure(users);
+  app.configure(entities);
 };
