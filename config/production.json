@@ -1,4 +1,4 @@
 {
-  "host": "pam-service-app.feathersjs.com",
+  "host": "pam-service.herokuapp.com",
   "port": "PORT"
 }
